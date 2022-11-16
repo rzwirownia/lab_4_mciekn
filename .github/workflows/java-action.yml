@@ -1,9 +1,5 @@
 name: Build and deploy Java app on Azure Enviroment
 
-env:
-  AZURE_WEBAPP_NAME: mwo-app
-  AZURE_WEBAPP_PACKAGE_PATH: '.'
-  DOTNET_VERSION: '6.0'
 
 on:
   push:
