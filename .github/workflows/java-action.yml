@@ -1,12 +1,8 @@
 name: Build and deploy Java app on Azure Enviroment
 
 
-on:
-
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+trigger:
+-main
 
 
 
